@@ -26,7 +26,7 @@ const UserBlogsPage = ({ users, truncateContent }) => {
     try {
       // sends a GET request to the server endpoint with the username
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/blog/user/${username}/blogs`
+        `https://blog-app-gdhi.onrender.com/blog/user/${username}/blogs`
       );
       const data = await response.json();
       // set the blog data
