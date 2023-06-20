@@ -45,7 +45,7 @@ const CreatePost = () => {
     // try-catch block for errors
     try {
       // sends a POST request to the server endpoint with the formData and token
-      const response = await fetch("https://blogapp-mcqn.onrender.com/blog", {
+      const response = await fetch("https://blog-app-gdhi.onrender.com/blog", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
