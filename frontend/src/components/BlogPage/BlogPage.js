@@ -47,7 +47,7 @@ export default function BlogPage({
   const fetchBlog = useCallback(async () => {
     try {
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/blog/${id}`
+        `https://blog-app-gdhi.onrender.com/blog/${id}`
       );
 
       if (response.ok) {
@@ -130,7 +130,7 @@ export default function BlogPage({
 
       // sends a PUT request to the server endpoint
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/blog/edit/${id}`,
+        `https://blog-app-gdhi.onrender.com/blog/edit/${id}`,
         {
           method: "PUT",
           headers: {
@@ -161,7 +161,7 @@ export default function BlogPage({
   const handleLike = async () => {
     try {
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/blog/like/${id}`,
+        `https://blog-app-gdhi.onrender.com/blog/like/${id}`,
         {
           method: "PUT",
           headers: {
@@ -189,7 +189,7 @@ export default function BlogPage({
     try {
       // sends a DELETE request to the server endpoint with the blog id and userid and token
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/blog/delete/${id}`,
+        `https://blog-app-gdhi.onrender.com/blog/delete/${id}`,
         {
           method: "DELETE",
           headers: {
@@ -221,7 +221,7 @@ export default function BlogPage({
     try {
       // sends a DELETE request to the server endpoint with the blogid and token
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/admin/delete/${id}`,
+        `https://blog-app-gdhi.onrender.com/admin/delete/${id}`,
         {
           method: "DELETE",
           headers: {
