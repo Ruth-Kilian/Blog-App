@@ -25,7 +25,7 @@ const HomePage = ({
     const fetchAllBlogs = async () => {
       try {
         // sends a GET request to server endpoint
-        const response = await fetch("https://blogapp-mcqn.onrender.com/blog/"); // Replace with your API endpoint
+        const response = await fetch("https://blog-app-gdhi.onrender.com/blog/"); // Replace with your API endpoint
         if (response.ok) {
           const data = await response.json();
           // set the blog data
@@ -45,7 +45,7 @@ const HomePage = ({
     const fetchAllUsers = async () => {
       try {
         // sends a GET request to the server enpoint
-        const response = await fetch("https://blogapp-mcqn.onrender.com/user/");
+        const response = await fetch("https://blog-app-gdhi.onrender.com/user/");
         if (response.ok) {
           const data = await response.json();
           // set the user data
