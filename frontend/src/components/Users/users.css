@@ -1,0 +1,33 @@
+.container {
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.username {
+  flex: 1;
+}
+
+.role {
+  flex: 1;
+  text-align: center;
+}
+
+.delete-button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}

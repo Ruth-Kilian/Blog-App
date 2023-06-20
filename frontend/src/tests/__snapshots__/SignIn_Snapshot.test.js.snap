@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SignUpForm correctly 1`] = `
+<div>
+  <div
+    class="d-flex justify-content-center align-items-center container"
+    style="height: 100vh;"
+  >
+    <div
+      class="signup-box shadow p-5"
+    >
+      <h2>
+        Sign Up
+      </h2>
+      <p
+        style="margin-bottom: 20px; font-size: 15px;"
+      >
+        Already have an account?
+         
+        <a
+          href="/login"
+          style="margin-bottom: 20px; font-size: 11px; text-decoration: underline; font-weight: bold;"
+        >
+          Login
+        </a>
+      </p>
+      <form
+        class=""
+      >
+        <div>
+          <label
+            class="form-label"
+            for="username"
+          >
+            Username
+          </label>
+          <input
+            class="form-control"
+            id="username"
+            placeholder="Enter username"
+            style="margin-bottom: 15px;"
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            class="form-label"
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="form-control"
+            id="password"
+            placeholder="Enter password"
+            style="margin-bottom: 15px;"
+            type="password"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            class="form-label"
+            for="profilePicture"
+          >
+            Profile Picture
+          </label>
+          <input
+            class="form-control"
+            id="profilePicture"
+            type="file"
+          />
+        </div>
+        <div>
+          <label
+            class="form-label"
+            for="role"
+          >
+            Role
+          </label>
+          <select
+            class="form-control"
+            id="role"
+          >
+            <option
+              value="normal"
+            >
+              Normal User
+            </option>
+            <option
+              value="admin"
+            >
+              Admin User
+            </option>
+          </select>
+        </div>
+        <button
+          class="btn btn-primary"
+          style="margin-top: 15px;"
+          type="submit"
+        >
+          Sign Up
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

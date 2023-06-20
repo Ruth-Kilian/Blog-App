@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MyBlogs component 1`] = `
+<div>
+  <h1
+    class="d-flex justify-content-center align-items-center"
+  >
+    No Blogs found
+  </h1>
+</div>
+`;

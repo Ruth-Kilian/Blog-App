@@ -1,0 +1,18 @@
+.about-container {
+  margin: 40px;
+}
+
+.about-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.about-instructions {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-steps {
+  font-size: 14px;
+  margin-left: 30px;
+}

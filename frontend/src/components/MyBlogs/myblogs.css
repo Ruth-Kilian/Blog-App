@@ -1,0 +1,16 @@
+.picture img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.username-container {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.blog-card .image {
+  height: 300px;
+  object-fit: cover;
+}

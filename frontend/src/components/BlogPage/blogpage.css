@@ -1,0 +1,64 @@
+.page-container {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-body-details {
+  padding: 25px;
+  align-items: center;
+}
+
+.blog-title {
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.card-text-details {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.small-text {
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+.username-containers {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.change-image {
+  padding-bottom: 20px;
+}
+
+.card-body-details form {
+  width: 100%;
+}
+
+.card-body-details .form-group {
+  margin-bottom: 15px;
+}
+
+.card-body-details .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.card-body-details .form-control {
+  width: 100%;
+}
+
+.card-body-details .btn {
+  margin-right: 10px;
+}

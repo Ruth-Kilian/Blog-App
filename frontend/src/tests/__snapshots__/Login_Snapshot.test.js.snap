@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders LoginForm correctly 1`] = `
+<div>
+  <div
+    class="d-flex justify-content-center align-items-center container"
+    style="height: 100vh;"
+  >
+    <div
+      class="login-box shadow p-5"
+    >
+      <h2>
+        Login
+      </h2>
+      <p
+        style="margin-bottom: 20px; font-size: 15px;"
+      >
+        Don't have an account?
+         
+        <a
+          href="/signup"
+          style="margin-bottom: 20px; font-size: 11px; text-decoration: underline; font-weight: bold;"
+        >
+          Sign Up
+        </a>
+      </p>
+      <form
+        class=""
+      >
+        <div>
+          <label
+            class="form-label"
+            for="username"
+          >
+            Username
+          </label>
+          <input
+            class="form-control"
+            id="username"
+            placeholder="Enter username"
+            style="margin-bottom: 15px;"
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            class="form-label"
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="form-control"
+            id="password"
+            placeholder="Enter password"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          class="btn btn-primary"
+          style="margin-top: 15px;"
+          type="submit"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

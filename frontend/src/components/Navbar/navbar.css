@@ -1,0 +1,63 @@
+/* navbar.css */
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.account-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav {
+  margin-left: 10px;
+  margin-bottom: -60px;
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+  font-size: 28px;
+  font-family: "Lora", serif;
+}
+
+.centered-links {
+  display: flex;
+  gap: 15px;
+  color: #568203;
+}
+
+.right-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  color: #333;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  color: #568203;
+}
