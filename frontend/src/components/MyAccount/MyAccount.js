@@ -29,7 +29,7 @@ const MyAccount = ({ userId, handleLogout, setIsUserLoggedIn }) => {
   const fetchUser = useCallback(async () => {
     try {
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/user/${userId}`,
+        `https://blog-app-gdhi.onrender.com/user/${userId}`,
         {
           method: "GET",
           headers: {
@@ -70,7 +70,7 @@ const MyAccount = ({ userId, handleLogout, setIsUserLoggedIn }) => {
     try {
       // sends a POST reques to the server endpoint with the user id and token and new username
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/user/${user._id}/change-username`,
+        `https://blog-app-gdhi.onrender.com/user/${user._id}/change-username`,
         {
           method: "POST",
           headers: {
@@ -107,7 +107,7 @@ const MyAccount = ({ userId, handleLogout, setIsUserLoggedIn }) => {
     try {
       // sends a POST request to the server endpoint with the user id and token and password changes
       const response = await fetch(
-        `https://blogapp-mcqn.onrender.com/user/${user._id}/change-password`,
+        `https://blog-app-gdhi.onrender.com/user/${user._id}/change-password`,
         {
           method: "POST",
           headers: {
@@ -147,7 +147,7 @@ const MyAccount = ({ userId, handleLogout, setIsUserLoggedIn }) => {
 
         try {
           const response = await fetch(
-            `https://blogapp-mcqn.onrender.com/user/${user._id}/change-profile-picture`,
+            `https://blog-app-gdhi.onrender.com/user/${user._id}/change-profile-picture`,
             {
               method: "POST",
               headers: {
@@ -194,7 +194,7 @@ const MyAccount = ({ userId, handleLogout, setIsUserLoggedIn }) => {
       try {
         // sends DELETE request to the server endpoint with the userId, token
         const response = await fetch(
-          `https://blogapp-mcqn.onrender.com/user/account/${userId}`,
+          `https://blog-app-gdhi.onrender.com/user/account/${userId}`,
           {
             method: "DELETE",
             headers: {
