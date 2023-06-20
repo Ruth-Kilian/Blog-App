@@ -25,7 +25,7 @@ const MyBlogs = ({ userId, truncateContent }) => {
       try {
         // sends a GET request to the server enpoint with the logged in users id and token
         const response = await fetch(
-          `https://blogapp-mcqn.onrender.com/user/${userId}`,
+          `https://blog-app-gdhi.onrender.com/user/${userId}`,
           {
             method: "GET",
             headers: {
@@ -59,7 +59,7 @@ const MyBlogs = ({ userId, truncateContent }) => {
       try {
         // sends a GET request to the server endpont with the token
         const response = await fetch(
-          `https://blogapp-mcqn.onrender.com/blog/my-blogs/${userId}`,
+          `https://blog-app-gdhi.onrender.com/blog/my-blogs/${userId}`,
           {
             method: "GET",
             headers: {
